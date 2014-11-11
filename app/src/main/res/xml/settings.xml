@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_cat">
+
+        <ListPreference
+            android:key="mylist"
+            android:title="Student Name"
+            android:summary="Pick your name."
+            android:entryValues="@array/peepsStrings"
+            android:entries="@array/peeps"
+            />
+
+        <CheckBoxPreference
+            android:key="awesome"
+            android:title="Awesome?"
+            android:summary="Check if awesome." />
+
+        <EditTextPreference
+            android:key="nickname"
+            android:title="Nick Name" />
+
+        <Preference
+            android:key="whodat"
+            android:title="Who Dat?" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

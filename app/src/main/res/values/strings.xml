@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeLoveFragmentsYay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="peeps">
+        <item name="Amber">Amber</item>
+        <item name="Brandon">Brandon</item>
+        <item name="Hoyt">Hoyt</item>
+        <item name="Knight">Knight</item>
+        <item name="Prince">Prince</item>
+    </string-array>
+
+    <string-array name="peepsStrings">
+        <item name="Amber">1</item>
+        <item name="Brandon">2</item>
+        <item name="Hoyt">3</item>
+        <item name="Knight">4</item>
+        <item name="Prince">5</item>
+    </string-array>
+
+    <string name="pref_cat">My Super Preferenecs</string>
+
+</resources>
